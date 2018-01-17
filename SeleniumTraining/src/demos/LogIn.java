@@ -3,7 +3,7 @@ package demos;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+ 
 public final class LogIn {
 
 	public static void main(String[] args) {
@@ -14,7 +14,7 @@ public final class LogIn {
 		
 		//1.-Define Driver
 		WebDriver driver;
-		driver = Utilities.DriverFactory.open(browserType);		
+		driver = utilities.DriverFactory.open(browserType);		
 	
 		//2.- Navigate to web application
 		driver.get("http://sdettraining.com/trguitransactions/AccountManagement.aspx");

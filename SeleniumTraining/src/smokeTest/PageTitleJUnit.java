@@ -16,7 +16,7 @@ public class PageTitleJUnit {
 	@Before	
 	public void setUp() {
 		System.out.println("Setting up the test ");
-		 driver =  Utilities.DriverFactory.open("chrome");		
+		 driver =  utilities.DriverFactory.open("chrome");		
 	}
 	
 	@Test
